@@ -37,7 +37,6 @@ def neural_network(W, x):
     a1 = sigmoid(np.dot(x, W[0]))
     return np.dot(a1, W[1])
 
-
 def neural_network_x(x):
     a1 = sigmoid(np.dot(x, W[0]))
     return np.dot(a1, W[1])
